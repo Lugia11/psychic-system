@@ -1,6 +1,6 @@
 python -m pip install keyboard
 #The imports
-from  import keyboard
+from keyboard-master import keyboard
 #Checks for W
 def on_keydown(event):
     
@@ -19,4 +19,5 @@ keyboard.on_press(on_keydown)
 #keep it running
 
 keyboard.wait()
+
 
